@@ -31,10 +31,10 @@ public class First : MonoBehaviour
 
         //Player mengalahkan monster
         player.IncrementScore(100);
-        Debug.Log("Score Player : " + player.GetScore().Points());
+        Debug.Log("Score Player : " + player.GetScore().Points);
         player.IncrementScore(100);
         player.IncrementScore(100);
-        Debug.Log("Score Player : " + player.GetScore().Points());
+        Debug.Log("Score Player : " + player.GetScore().Points);
     }
 
 }
